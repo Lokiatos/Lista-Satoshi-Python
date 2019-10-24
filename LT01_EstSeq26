@@ -5,8 +5,8 @@
 n1 = 0
 n2 = 0
 
-n1 = int (input("Digite aqui o primeiro número "))
-n2 = int (input("Digite aqui o segundo número "))
+n1 = int (input("Digite aqui o primeiro número: "))
+n2 = int (input("Digite aqui o segundo número: "))
 
 if (n1 > n2):
   if ((n1 % n2) == 0):
