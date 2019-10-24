@@ -1,0 +1,16 @@
+#Objetivo: Receba um número inteiro. Calcule e mostre o seu fatorial.
+#Programador: Hugo Leça Ribeiro
+#Data de Elaboração: 11.09.19
+
+fat = 1
+n = 0
+
+n = int (input("Digite o número "))
+
+if n >= 0:
+  while n > 0:
+    fat = (fat * n)
+    n = (n - 1)
+  print ("O fatorial será de : ", fat)
+else:
+  print ("O fatorial será de 0")
