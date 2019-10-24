@@ -10,7 +10,7 @@ rendaFixa = 1.05
 meses = int (dias / 30)
 valorCorrigido = 0
 
-valor = float (input("Digite aqui o valor do investimento "))
+valor = float (input("Digite aqui o valor do investimento: "))
 tipoDeInvestimento = int (input("Digite 1 para poupança, e 2 para renda fixa "))
 
 if tipoDeInvestimento == 1:
