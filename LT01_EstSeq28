@@ -9,12 +9,12 @@ vendaMensal = 0
 precoAtual = 0
 precoNovo = 0
 
-vendaMensal = float (input ("Digite aqui a quantidade de venda mensal"))
-precoAtual = float (input ("Digite aqui o preço atual do produto"))
+vendaMensal = float (input ("Digite aqui a quantidade de venda mensal: "))
+precoAtual = float (input ("Digite aqui o preço atual do produto: "))
 
 if (vendaMensal < 500) and (precoAtual < 30):
   precoNovo = (precoAtual * 1.1)
-elif (vendaMensal >= 500 and <1000) and (precoAtual >= 30 and < 80):
+elif (vendaMensal >= 500 and vendaMensal <1000) and (precoAtual >= 30 and precoAtual < 80):
   precoNovo = (precoAtual * 1.15)
 elif (vendaMensal >= 1000) and (precoAtual >= 80):
   precoNovo = (precoAtual * 0.95)
