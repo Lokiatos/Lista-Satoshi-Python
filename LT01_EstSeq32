@@ -5,7 +5,7 @@
 fat = 1
 n = 0
 
-n = int (input("Digite o número "))
+n = int (input("Digite um número para vermos seu fatorial: "))
 
 if n >= 0:
   while n > 0:
