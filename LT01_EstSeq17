@@ -7,8 +7,8 @@ vM = 0
 litrosGastos = 0
 rendimento = 12
 
-tempoDePercurso = float (input ("Digite aqui o tempo que levou o percurso - em horas "))
-vM = float (input ("Digite aqui a velocidade média do automóvel - em km/h "))
+tempoDePercurso = float (input ("Digite aqui o tempo que levou o percurso (em horas): "))
+vM = float (input ("Digite aqui a velocidade média do automóvel (em km/h): "))
 litrosGastos = ((tempoDePercurso * vM) / 12)
 
 print ("O total de litros gastos foi de: ", litrosGastos)
