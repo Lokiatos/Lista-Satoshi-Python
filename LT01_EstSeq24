@@ -6,7 +6,7 @@ n1 = 0
 testePor2 = 0
 testePor3 = 0
 
-n1 = float (input ("Digite aqui o número "))
+n1 = float (input ("Digite aqui um número: "))
 testePor2 = n1 % 2
 testePor3 = n1 % 3
 
