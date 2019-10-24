@@ -1,0 +1,11 @@
+#Objetivo: Calcule e mostre o quadrado dos números entre 10 e 150.
+#Programador: Hugo Leça Ribeiro
+#Data de Elaboração: 11.09.19
+
+N = 11
+Quad = 0
+
+while N <= 149:
+  Quad = (N ** 2)
+  print (Quad)
+  N = N + 1
