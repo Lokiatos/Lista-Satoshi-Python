@@ -12,4 +12,4 @@ anoDeNascimento = int (input ("Digite aqui seu ano de nascimento: "))
 idade = (anoAtual - anoDeNascimento)
 idadeDaqui17Anos = (idade + 17)
 
-print ("Sua idade atual é de: ", idade, "     E sua idade daqui 17 anos será de: ", idadeDaqui17Anos)
+print ("Sua idade atual é de: ", idade, "anos" "\nE sua idade daqui 17 anos será de: ", idadeDaqui17Anos, "anos")
