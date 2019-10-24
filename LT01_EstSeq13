@@ -5,7 +5,7 @@
 quantidadeEmQuilos = 0
 duracaoDoAlimento = 0
 
-quantidadeEmQuilos = float (input ("Digite aqui a quantidade de alimento - em quilos "))
+quantidadeEmQuilos = float (input ("Digite aqui a quantidade de alimento (em quilos): "))
 duracaoDoAlimento = float (quantidadeEmQuilos * 1000 / 50)
 
 print ("Este alimento durará: ", duracaoDoAlimento, "dias")
