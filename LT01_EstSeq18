@@ -6,8 +6,8 @@ n1 = 0
 n2 = 0
 diferenca = 0
 
-n1 = int (input ("Digite aqui o valor do primeiro número "))
-n2 = int (input ("Digite aqui o valor do segundo número "))
+n1 = int (input ("Digite aqui o valor do primeiro número: "))
+n2 = int (input ("Digite aqui o valor do segundo número: "))
 
 if (n1 >= n2):
   diferenca = (n1 - n2)
