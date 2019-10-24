@@ -11,11 +11,11 @@ salarioLiq = 0
 adicionalPorDependente = 100
 salarioAReceber = 0
 
-hTrab = float (input ("Digite aqui o total de horas trabalhadas "))
-vrPH = float (input ("Digite aqui o valor da hora trabalhada "))
-percentualDeDesconto = float (input ("Digite aqui o valor do desconto em porcentagem "))
+hTrab = float (input ("Digite aqui o total de horas trabalhadas: "))
+vrPH = float (input ("Digite aqui o valor da hora trabalhada: "))
+percentualDeDesconto = float (input ("Digite aqui o valor do desconto em porcentagem: "))
 percentualDeDesconto = (percentualDeDesconto / 100)
-dependentes = int (input ("Digite aqui o número de dependentes "))
+dependentes = int (input ("Digite aqui o número de dependentes: "))
 salarioBruto = (hTrab * vrPH)
 salarioLiq = (salarioBruto - (salarioBruto * percentualDeDesconto))
 salarioAReceber = (dependentes * 100) + (salarioLiq)
