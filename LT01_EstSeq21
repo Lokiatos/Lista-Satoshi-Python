@@ -11,15 +11,15 @@ nota3 = 0
 nota4 = 0
 media = 0
 
-nota1 = float (input ("Digite aqui o valor da nota do primeiro bimestre"))
-nota2 = float (input ("Digite aqui o valor da nota do segundo bimestre"))
-nota3 = float (input ("Digite aqui o valor da nota do terceiro bimestre"))
-nota4 = float (input ("Digite aqui o valor da nota do quarto bimestre"))
+nota1 = float (input ("Digite aqui o valor da nota do primeiro bimestre: "))
+nota2 = float (input ("Digite aqui o valor da nota do segundo bimestre: "))
+nota3 = float (input ("Digite aqui o valor da nota do terceiro bimestre: "))
+nota4 = float (input ("Digite aqui o valor da nota do quarto bimestre: "))
 media = ((nota1 + nota2 + nota3 + nota4) / 4)
 
 if media >= 6:
   print ("O aluno teve media de: ", media, " Ele está APROVADO")
-elif media >= 3 or <6:
+elif media >= 3 or media < 6:
   print ("O aluno teve media de: ", media, " Ele está de EXAME")
 else:
   print ("O aluno teve media de: ", media, " Ele está RETIDO")
