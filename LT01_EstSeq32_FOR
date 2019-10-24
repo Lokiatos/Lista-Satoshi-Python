@@ -1,0 +1,14 @@
+#Objetivo: Receba um número inteiro. Calcule e mostre o seu fatorial.
+#Programador: Hugo Leça Ribeiro
+#Data de Elaboração: 11.09.19
+
+i = 0
+fat = 1
+i = int(input("Digite aqui o número desejado: "))
+
+if i < 0:
+  fat = 0
+else: 
+  for i in range (i, 0, -1):
+    fat = (fat * i)
+print (fat) 
