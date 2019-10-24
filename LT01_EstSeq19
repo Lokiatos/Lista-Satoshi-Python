@@ -5,8 +5,8 @@
 n1 = 0
 n2 = 0
 
-n1 = float (input("Digite aqui o valor do primeiro número "))
-n2 = float (input("Digite aqui o valor do segundo número "))
+n1 = float (input("Digite aqui o valor do primeiro número: "))
+n2 = float (input("Digite aqui o valor do segundo número: "))
 
 if (n1 > n2):
   print ("O maior número entre os dois é: ", n1)
