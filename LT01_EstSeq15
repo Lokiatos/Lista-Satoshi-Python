@@ -6,8 +6,8 @@ cat1 = 0
 cat2 = 0
 hip = 0
 
-cat1 = float (input ("Digite aqui o valor de um cateto "))
-cat2 = float (input ("Digite aqui o valor do outro cateto "))
+cat1 = float (input ("Digite aqui o valor de um cateto: "))
+cat2 = float (input ("Digite aqui o valor do outro cateto: "))
 hip = (((cat1 ** 2) + (cat2 **2)) ** 0.5)
 
 print ("O valor da hipotenusa é de: ", hip)
