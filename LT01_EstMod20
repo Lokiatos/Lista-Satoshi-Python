@@ -1,6 +1,6 @@
 #Objetivo: Receber 3 coeficientes: A, B e C de uma equação do 2º grau da fórmula AX² + BX + C = 0. Verificar e mostrar a existência de raízes reais e se caso exista, calcular e mostrar.
 #Programador: Hugo Leça Ribeiro
-#Data de Elaboração: 04.09.2019
+#Data de Elaboração: 24.10.2019
 
 #Procedimento 
 def PBhaskara(A, B, C):
